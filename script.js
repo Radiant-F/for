@@ -1,4 +1,4 @@
-var listDesa = ('argodadi,sedayu',
+var listDesa = ['argodadi,sedayu',
     'argomulyo,sedayu',
     'argorejo,sedayu',
     'argosari',
@@ -10,9 +10,10 @@ var listDesa = ('argodadi,sedayu',
     'canden,jetis',
     'caturharjo,pandak',
     'cetan srigandi'
-);
+];
+
 document.write('<ol>')
 for (i = 0; i < listDesa.length; i++) {
-    document.write("<li>", listDesa[i], "</li>")
+    document.write('<li>', listDesa[i], '</li>')
 }
-document.write("</ol>")
+document.write('</ol>')
